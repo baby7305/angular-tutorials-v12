@@ -17,13 +17,15 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { DemoNgZorroAntdModule } from './ng-zorro-antd.module';
 
 import { BasicComponent } from './button/basic/basic.component';
+import { ListComponent } from './data-display/list/list.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicComponent
+    BasicComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
