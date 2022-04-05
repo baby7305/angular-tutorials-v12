@@ -6,10 +6,12 @@ import { EasyUIModule } from 'ng-easyui'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BasicComponent } from './basic/basic.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicComponent
   ],
   imports: [
     BrowserModule,
