@@ -17,8 +17,8 @@ export class BasicComponent implements OnInit {
         , $ = layui.jquery;
 
       //菜单点击事件
-      dropdown.on('click(demo1)', function (options) {
-        var thisElem = $(this);
+      dropdown.on('click(demo1)', function (options: any) {
+        var thisElem = $(dropdown);
         console.log(thisElem, options);
       });
 
