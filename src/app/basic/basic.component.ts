@@ -16,8 +16,10 @@ export class BasicComponent implements OnInit {
         , util = layui.util
         , $ = layui.jquery;
 
+      // @ts-ignore
       //菜单点击事件
       dropdown.on('click(demo1)', function (options) {
+        // @ts-ignore
         var thisElem = $(this);
         console.log(thisElem, options);
       });
