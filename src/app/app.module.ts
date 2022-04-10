@@ -12,6 +12,7 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ForgotPasswordComponent } from './component/forgot-password/forgot-password.component';
+import { VarifyEmailComponent } from './component/varify-email/varify-email.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ForgotPasswordComponent } from './component/forgot-password/forgot-pass
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    VarifyEmailComponent
   ],
   imports: [
     BrowserModule,
