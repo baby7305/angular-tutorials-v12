@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase : {
-    apiKey: "AIzaSyBjaHDaJFc8lOI20rC9p5JKiJmoQ0ayRA0",
-    authDomain: "angular-crud-981f3.firebaseapp.com",
-    projectId: "angular-crud-981f3",
-    storageBucket: "angular-crud-981f3.appspot.com",
-    messagingSenderId: "492359193524",
-    appId: "1:492359193524:web:7aec529a94f06fb9d6d8e1"
+  firebase: {
+    apiKey: "AIzaSyBeSMDvkc3BaMC7Y0FCM5CiMpMZ7S0QmU4",
+    authDomain: "angular-tutorials-89b0f.firebaseapp.com",
+    projectId: "angular-tutorials-89b0f",
+    storageBucket: "angular-tutorials-89b0f.appspot.com",
+    messagingSenderId: "641438598029",
+    appId: "1:641438598029:web:5dbd5631f52f7ba84f73c4"
   }
 };
 
