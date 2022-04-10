@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule} from '@angular/forms';
 
 import { AngularFireModule } from '@angular/fire/compat';
 
@@ -22,7 +23,8 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
