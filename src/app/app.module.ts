@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { BasicComponent } from './basic/basic.component';
 import { environment } from 'src/environments/environment';
 import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
