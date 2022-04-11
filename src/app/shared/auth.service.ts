@@ -41,4 +41,13 @@ export class AuthService {
       this.router.navigate(['/login']);
     })
   }
+
+  // forgot password
+  forgotPassword(email: string) {
+    this.fireauth.sendPasswordResetEmail(email).then(() => {
+      this.router.navigate(['/varify-email']);
+    }, err => {
+      alert(err.message);
+    })
+  }
 }
