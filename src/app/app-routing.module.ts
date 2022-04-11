@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'varify-password', component: VarifyEmailComponent },
+  { path: 'varify-email', component: VarifyEmailComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent }
 ];
 
